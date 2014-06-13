@@ -3,7 +3,7 @@
 	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 
 <hibernate-configuration>
-	<session-factory name="tatianium">
+	<session-factory>
 		
 	    <!-- Database connection settings -->
 		<property name="connection.driver_calss">com.mysql.jdbc.Driver</property>
@@ -17,7 +17,7 @@
 		<!-- SQL dialect -->
 		<property name="show_sql">true</property>
 		
-		<mapping resource="cn/tatianoum/MFile.hbm.xml"></mapping>
+		<mapping resource="MFile.hbm.xml"></mapping>
 		
 	</session-factory>
 </hibernate-configuration>
