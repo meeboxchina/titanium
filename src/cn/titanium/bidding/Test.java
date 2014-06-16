@@ -7,7 +7,7 @@
 * @date Jun 13, 2014 3:57:15 PM
 * @version V1.0   
 */
-package cn.titanium;
+package cn.titanium.bidding;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

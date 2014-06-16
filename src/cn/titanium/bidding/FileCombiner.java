@@ -7,7 +7,7 @@
 * @date Jun 12, 2014 2:35:04 PM
 * @version V1.0   
 */
-package cn.titanium;
+package cn.titanium.bidding;
 
 import java.io.File;
 import java.io.FileInputStream;

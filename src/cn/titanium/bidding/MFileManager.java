@@ -8,12 +8,18 @@
 * @version V1.0   
 */
 
-package cn.titanium;
+package cn.titanium.bidding;
+
+import cn.titanium.bidding.FileCombiner;
+import cn.titanium.bidding.FileDencryptor;
+import cn.titanium.bidding.FileEncryptor;
+import cn.titanium.bidding.FileSpliter;
+
 /**
  * @author sunyu
  *
  */
-public class Mfile {
+public class MFileManager {
 
 	/**
 	 * @param args

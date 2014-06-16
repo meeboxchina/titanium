@@ -1,4 +1,4 @@
-package cn.titanium;
+package cn.titanium.bidding;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
