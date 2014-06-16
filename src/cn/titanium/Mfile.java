@@ -22,7 +22,7 @@ public class Mfile {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		
-		FileSpliter fs = new FileSpliter("/home/sunyu/syslog");
+		FileSpliter fs = new FileSpliter("/Users/sunsunny/my.cnf");
 		String[] paths = fs.split();
 		
 		
@@ -46,7 +46,7 @@ public class Mfile {
 		FileCombiner fc = new FileCombiner(part1, part2);
 		System.out.print(fc.combiner());
 		
-		
+		/*
 		DBManager db = new DBManager("127.0.0.1",3306,"meebox","meebox","meebox");
 		db.conncect();
 		String filelist[] = db.query("select * from file");
@@ -54,6 +54,7 @@ public class Mfile {
 		
 		db.insert("test");
 		
+		*/
 	}
 
 }
