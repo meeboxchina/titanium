@@ -28,7 +28,7 @@ public class MFileManager {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		
-		FileSpliter fs = new FileSpliter("/Users/sunsunny/my.cnf");
+		FileSpliter fs = new FileSpliter("/Users/sunsunny/.bash_history");
 		String[] paths = fs.split();
 		
 		
